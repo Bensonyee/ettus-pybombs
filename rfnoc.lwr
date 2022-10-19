@@ -3,7 +3,7 @@ inherit: prefix
 config:
     packages:
         uhd:
-            gitbranch: master
+            gitbranch: rfnoc-devel
             forcebuild: True
             vars:
               config_opt: " -DENABLE_RFNOC=ON "
@@ -11,10 +11,10 @@ config:
             gitbranch: maint-3.7
             forcebuild: True
         gr-ettus:
-            gitbranch: master
+            gitbranch: rfnoc-ofdm
             forcebuild: True
         uhd-fpga:
-            gitbranch: master
+            gitbranch: rfnoc-ofdm
 depends:
 - gnuradio
 - uhd
