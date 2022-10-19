@@ -19,5 +19,5 @@ depends:
 - gnuradio
 - uhd
 - gr-ettus
-- pyqt5
+- pyqt4
 - uhd-fpga
